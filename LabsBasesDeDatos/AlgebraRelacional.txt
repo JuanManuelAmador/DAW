@@ -1,0 +1,16 @@
+sigma condicion relacion
+
+PI descripcion	(Sigma	Clave > 2000 	Materiales )
+		and 
+		precio < 100
+
+
+Pi descripcion (SIGMA denominacion="Aguascalientes"[Proyectos (Materiales >< Entregan )]) 
+
+PI razon social[Sigma clave=1000 AND cantidad>100(Provedores >< Entregan)]
+
+***Pi RFC [Sigma descripcion="Varilla 3/4" and denominacion="Merida" and denominacion="San Luis" (Materiales><(Proyectos><Entregan))]
+
+(PI denominacion,descripcion,razon social((SIGMA fecha=1997(Materiales><(Proveedores><Entregan))))
+
+
